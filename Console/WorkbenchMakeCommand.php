@@ -1,10 +1,10 @@
 <?php
 
-namespace Pingpong\Workbench\Console;
+namespace ApolloPY\Workbench\Console;
 
 use Illuminate\Console\Command;
-use Pingpong\Workbench\Package;
-use Pingpong\Workbench\PackageCreator;
+use ApolloPY\Workbench\Package;
+use ApolloPY\Workbench\PackageCreator;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -34,7 +34,7 @@ class WorkbenchMakeCommand extends Command
     /**
      * Create a new make workbench command instance.
      *
-     * @param \Pingpong\Workbench\PackageCreator $creator
+     * @param \ApolloPY\Workbench\PackageCreator $creator
      */
     public function __construct(PackageCreator $creator)
     {
@@ -58,7 +58,7 @@ class WorkbenchMakeCommand extends Command
     /**
      * Run the package creator class for a given Package.
      *
-     * @param \Pingpong\Workbench\Package $package
+     * @param \ApolloPY\Workbench\Package $package
      *
      * @return string
      */
@@ -86,7 +86,7 @@ class WorkbenchMakeCommand extends Command
     /**
      * Build the package details from user input.
      *
-     * @return \Illuminate\Workbench\Package
+     * @return \ApolloPY\Workbench\Package
      *
      * @throws \UnexpectedValueException
      */

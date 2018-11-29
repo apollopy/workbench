@@ -14,10 +14,10 @@
 You can install the package via composer command line by running this following command.
 
 ```
-composer require pingpong/workbench
+composer require apollopy/workbench
 ```
 
-After the package installed, add `Pingpong\Workbench\WorkbenchServiceProvider` to your `providers` array in `config/app.php` file.
+After the package installed, add `ApolloPY\Workbench\WorkbenchServiceProvider` to your `providers` array in `config/app.php` file.
 
 And the last, publish the package's configuration by running:
 
@@ -44,8 +44,8 @@ require __DIR__.'/../vendor/autoload.php';
 | auto-load files for the packages so that these can be used here.
 |
 */
-if (is_dir($workbench = __DIR__.'/../workbench') && class_exists(Pingpong\Workbench\Starter::class)) {
-    Pingpong\Workbench\Starter::start($workbench);
+if (is_dir($workbench = __DIR__.'/../workbench') && class_exists(ApolloPY\Workbench\Starter::class)) {
+    ApolloPY\Workbench\Starter::start($workbench);
 }
 ```
 

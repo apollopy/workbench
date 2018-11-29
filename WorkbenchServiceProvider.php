@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Workbench;
+namespace ApolloPY\Workbench;
 
 use Illuminate\Support\ServiceProvider;
-use Pingpong\Workbench\Console\WorkbenchMakeCommand;
+use ApolloPY\Workbench\Console\WorkbenchMakeCommand;
 
 class WorkbenchServiceProvider extends ServiceProvider
 {

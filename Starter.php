@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Workbench;
+namespace ApolloPY\Workbench;
 
 use Symfony\Component\Finder\Finder;
 use Illuminate\Filesystem\Filesystem;

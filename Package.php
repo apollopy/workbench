@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Workbench;
+namespace ApolloPY\Workbench;
 
 class Package
 {

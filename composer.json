@@ -1,5 +1,5 @@
 {
-    "name": "pingpong/workbench",
+    "name": "apollopy/workbench",
     "description": "Laravel 5 Workbench.",
     "license": "MIT",
     "authors": [
@@ -10,6 +10,10 @@
         {
             "name": "Warsono",
             "email": "warsono16694@gmail.com"
+        },
+        {
+            "name": "ApolloPY",
+            "email": "apollopy@gmail.com"
         }
     ],
     "require": {
@@ -22,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pingpong\\Workbench\\": ""
+            "ApolloPY\\Workbench\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pingpong\\Workbench\\WorkbenchServiceProvider"
+                "ApolloPY\\Workbench\\WorkbenchServiceProvider"
             ]
         }
     },
