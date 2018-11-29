@@ -14,7 +14,7 @@
 You can install the package via composer command line by running this following command.
 
 ```
-composer require apollopy/workbench
+composer require --dev apollopy/workbench
 ```
 
 After the package installed, add `ApolloPY\Workbench\WorkbenchServiceProvider` to your `providers` array in `config/app.php` file.
