@@ -29,9 +29,11 @@ That will publish the `workbench.php` config file to your `config/` folder and y
 
 ## Autoloading Workbench
 
-You can autoload the workbench by adding this following command to your `bootstrap/autoload.php` file. Put this following command at the very bottom of script.
+You can autoload the workbench by adding this following command to your `public/index.php` file.
 
 ```php
+require __DIR__.'/../vendor/autoload.php';
+
 /*
 |--------------------------------------------------------------------------
 | Register The Workbench Loaders
@@ -42,7 +44,7 @@ You can autoload the workbench by adding this following command to your `bootstr
 | auto-load files for the packages so that these can be used here.
 |
 */
-if (is_dir($workbench = __DIR__.'/../workbench')) {
+if (is_dir($workbench = __DIR__.'/../workbench') && class_exists(Pingpong\Workbench\Starter::class)) {
     Pingpong\Workbench\Starter::start($workbench);
 }
 ```
